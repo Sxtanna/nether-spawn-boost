@@ -1,0 +1,30 @@
+#################################
+#        Spawn Mechanism        #
+#################################
+spawn:
+  # How often, in ticks, should the plugin attempt to spawn a mob
+  every: 2
+  # The range, in blocks, around players that mobs will spawn in
+  range: 20
+  limit:
+    # The limit of entities that can be spawned within ^that range
+    within_range: 50
+    # The limit of player targets to choose ^every spawn task
+    within_spawn: 10
+
+##############################
+#        Entity Types        #
+##############################
+types:
+  BLAZE:
+    # The weight, out of 100, determines how often the plugin chooses this type
+    weight: 50
+    # The amount of entities to spawn at a time
+    # A single whole number
+    #   amount: 2
+    # A range notation
+    #   amount: 2..5
+    amount: 2..5
+  PIG_ZOMBIE:
+    weight: 50
+    amount: 3..6

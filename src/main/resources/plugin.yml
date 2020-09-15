@@ -1,0 +1,8 @@
+name: "NetherSpawnBoost"
+main: "com.sxtanna.mc.nether.NetherSpawnBoostPlugin"
+
+version: "@version@"
+authors: ["Sxtanna"]
+website: "https://www.sxtanna.com"
+
+api-version: "1.13"
